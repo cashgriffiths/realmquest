@@ -1,7 +1,6 @@
-package Gameplay;
+package Rooms;
 
 import Items.Loot;
-import Misc.*;
 
 public class LootRoom extends Room {
 

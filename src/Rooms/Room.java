@@ -1,4 +1,4 @@
-package Misc;
+package Rooms;
 
 
 public abstract class Room {

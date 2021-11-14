@@ -1,6 +1,6 @@
 package Gameplay;
 
-import Misc.Room;
+import Rooms.Room;
 
 import java.util.Random;
 
@@ -31,5 +31,9 @@ public class Level {
 
     public static Level getLevel() {
         return level;
+    }
+
+    public Room getRoom(int y, int x) {
+        return grid[y][x];
     }
 }
